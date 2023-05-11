@@ -29,3 +29,7 @@
     - install from 'legacy wine tools' - 'Uninstaller'
     - Run from 'Explorer' - My computer - C - Program Files x86 - Kakao
 11. Download and install VMware [vmware url](https://www.vmware.com/products/workstation-player.html)
+    - install Hancom Office
+    - install Office 365
+12. install matlab [url](https://kr.mathworks.com/) (should be root)
+13. setup email client (geary)

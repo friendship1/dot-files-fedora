@@ -57,3 +57,7 @@ dropbox:
 .PHONY: font
 font:
 	sh install-font.sh
+
+.PHONY: nvidia
+nvidia:
+	sh install-nvidia.sh
