@@ -1,5 +1,5 @@
 .PHONY: all
-all: pre edge vscode zsh backup stow side1 side2 font flatpak dropbox
+all: pre edge vscode zsh backup stow side1 side2 font flatpak dropbox turbovnc
 
 .PHONY: server
 server: pre zsh backup stow side1
@@ -61,3 +61,7 @@ font:
 .PHONY: nvidia
 nvidia:
 	sh install-nvidia.sh
+
+.PHONY: turbovnc
+turbovnc:
+	sh install-turbovnc.sh
