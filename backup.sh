@@ -19,5 +19,7 @@ mv_old .vimrc
 mv_old .vim
 mkdir -p old-dot-files/.config
 mv_old .config/nvim
+mv_old .config/git
 mkdir -p ~/.config/nvim
+mkdir -p ~/.config/git
 # mv_old .oh-my-zsh
